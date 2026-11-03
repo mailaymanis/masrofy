@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:masrofy/app.dart';
 
 void main() {
-  runApp(const MasrofyApp());
+  runApp(ProviderScope(child: const MasrofyApp()));
 }
