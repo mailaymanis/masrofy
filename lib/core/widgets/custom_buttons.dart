@@ -23,6 +23,7 @@ class CustomButton extends StatelessWidget {
     this.height,
     this.icon,
     this.isDisabled = false,
+    textStyle,
   });
 
   @override
