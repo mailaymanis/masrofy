@@ -24,33 +24,6 @@ class SplashScreen extends ConsumerWidget {
           ),
         ],
       ),
-      body: Column(
-        // mainAxisAlignment: MainAxisAlignment.center,
-        //crossAxisAlignment: CrossAxisAlignment.center,
-        children: [
-          Align(
-            alignment: Alignment.center,
-            child: Text('description', style: AppTextStyles.bodyMedium).tr(),
-          ),
-          SizedBox(height: AppSizes.xl),
-          Align(
-            alignment: Alignment.center,
-            child: Padding(
-              padding: EdgeInsets.all(AppSizes.m),
-              child: CustomButton(
-                text: "changeLanguage".tr(),
-                onPressed: () {
-                  context.setLocale(
-                    context.locale.languageCode == 'en'
-                        ? const Locale('ar')
-                        : const Locale('en'),
-                  );
-                },
-              ),
-            ),
-          ),
-        ],
-      ),
     );
   }
 }

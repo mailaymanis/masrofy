@@ -2,9 +2,9 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:masrofy/core/routes/routes.dart';
 import 'package:masrofy/core/themes/app_theme.dart';
 import 'package:masrofy/core/themes/theme_mode_provider.dart';
-import 'package:masrofy/features/splash/splash_screen.dart';
 
 class MasrofyApp extends ConsumerWidget {
   const MasrofyApp({super.key});
@@ -20,8 +20,8 @@ class MasrofyApp extends ConsumerWidget {
         designSize: const Size(390, 844),
         minTextAdapt: true,
         builder: (context, child) {
-          return MaterialApp(
-            locale: context.locale,
+          return MaterialApp.router(
+            locale: Locale('ar'),
             supportedLocales: context.supportedLocales,
             localizationsDelegates: context.localizationDelegates,
             debugShowCheckedModeBanner: false,
@@ -29,7 +29,7 @@ class MasrofyApp extends ConsumerWidget {
             theme: AppTheme.light,
             darkTheme: AppTheme.dark,
             themeMode: themeMode,
-            home: const SplashScreen(),
+            routerConfig: appRouter,
           );
         },
       ),
