@@ -12,7 +12,7 @@ class AuthButton extends StatelessWidget {
     return CustomButton(
       text: "التسجيل من خلال جوجل",
       variant: ButtonVariant.outlined,
-      onPressed: () {},
+      onPressed: onPressed,
       icon: FaIcon(FontAwesomeIcons.google, size: AppSizes.iconM),
       textStyle: Theme.of(context).textTheme.titleMedium,
     );

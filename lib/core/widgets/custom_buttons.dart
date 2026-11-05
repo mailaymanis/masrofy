@@ -32,7 +32,7 @@ class CustomButton extends StatelessWidget {
 
     return SizedBox(
       width: width ?? double.infinity,
-      height: height ?? AppSizes.buttonM,
+      height: height ?? AppSizes.buttonXL,
       child: _buildButton(theme),
     );
   }

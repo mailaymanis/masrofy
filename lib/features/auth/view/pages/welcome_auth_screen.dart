@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:go_router/go_router.dart';
+import 'package:masrofy/core/routes/app_routes.dart';
 import 'package:masrofy/core/themes/app_colors.dart';
 import 'package:masrofy/core/themes/app_sizes.dart';
 import 'package:masrofy/core/widgets/custom_app_scaffold.dart';
@@ -38,7 +40,7 @@ class WelcomeAuthScreen extends StatelessWidget {
           SizedBox(height: AppSizes.xxxl),
           Padding(
             padding: EdgeInsets.symmetric(horizontal: AppSizes.l),
-            child: AuthButton(),
+            child: AuthButton(onPressed: () => context.go(AppRoutes.home)),
           ),
           Spacer(),
         ],
