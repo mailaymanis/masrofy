@@ -1,9 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:masrofy/core/constants/app_assets.dart';
-import 'package:masrofy/core/themes/app_colors.dart';
 import 'package:masrofy/core/themes/app_sizes.dart';
-import 'package:masrofy/core/themes/app_text_styles.dart';
 import 'package:masrofy/core/widgets/custom_app_scaffold.dart';
 import 'package:masrofy/features/home/view/widgets/custom_card.dart';
 import 'package:masrofy/features/home/view/widgets/custom_row.dart';

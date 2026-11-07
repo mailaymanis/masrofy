@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:go_router/go_router.dart';
+import 'package:masrofy/core/routes/app_routes.dart';
 import 'package:masrofy/core/themes/app_colors.dart';
 import 'package:masrofy/core/themes/app_sizes.dart';
 import 'package:masrofy/core/themes/app_text_styles.dart';
@@ -15,7 +16,7 @@ class QuickTools extends StatelessWidget {
         'label': "الأهداف",
         'icon': Icons.track_changes_rounded,
         'color': AppColors.purple,
-        'route': '',
+        'route': AppRoutes.goals,
       },
       {
         'label': "الديون",
