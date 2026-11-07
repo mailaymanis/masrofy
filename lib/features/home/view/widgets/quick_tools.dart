@@ -22,7 +22,7 @@ class QuickTools extends StatelessWidget {
         'label': "الديون",
         'icon': Icons.account_balance_wallet_rounded,
         'color': AppColors.warning,
-        'route': '',
+        'route': AppRoutes.debts,
       },
       {
         'label': "الدخل",
