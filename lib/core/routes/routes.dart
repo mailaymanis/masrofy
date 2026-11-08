@@ -2,6 +2,7 @@ import 'package:go_router/go_router.dart';
 import 'package:masrofy/core/routes/app_routes.dart';
 import 'package:masrofy/features/auth/view/pages/welcome_auth_screen.dart';
 import 'package:masrofy/features/debts/views/pages/debts_screen.dart';
+import 'package:masrofy/features/expenses/view/pages/expenses_screen.dart';
 import 'package:masrofy/features/goals/views/pages/goals_screen.dart';
 import 'package:masrofy/features/home/view/pages/home_screen.dart';
 import 'package:masrofy/features/income/view/pages/income_screen.dart';
@@ -29,6 +30,10 @@ final GoRouter appRouter = GoRouter(
     GoRoute(
       path: AppRoutes.income,
       builder: (context, state) => const IncomeScreen(),
+    ),
+    GoRoute(
+      path: AppRoutes.expenses,
+      builder: (context, state) => const ExpensesScreen(),
     ),
   ],
 );
