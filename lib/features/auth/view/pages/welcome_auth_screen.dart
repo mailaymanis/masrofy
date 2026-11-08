@@ -40,7 +40,7 @@ class WelcomeAuthScreen extends StatelessWidget {
           SizedBox(height: AppSizes.xxxl),
           Padding(
             padding: EdgeInsets.symmetric(horizontal: AppSizes.l),
-            child: AuthButton(onPressed: () => context.go(AppRoutes.home)),
+            child: AuthButton(onPressed: () => context.go(AppRoutes.layout)),
           ),
           Spacer(),
         ],

@@ -6,4 +6,5 @@ class AppRoutes {
   static const String debts = '/debts';
   static const String income = '/income';
   static const String expenses = '/expenses';
+  static const String layout = '/layout';
 }
