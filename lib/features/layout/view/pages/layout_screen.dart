@@ -6,6 +6,7 @@ import 'package:masrofy/features/debts/views/pages/debts_screen.dart';
 import 'package:masrofy/features/expenses/view/pages/expenses_screen.dart';
 import 'package:masrofy/features/goals/views/pages/goals_screen.dart';
 import 'package:masrofy/features/home/view/pages/home_screen.dart';
+import 'package:masrofy/features/layout/view/pages/reports_screen.dart';
 
 class LayoutScreen extends StatefulWidget {
   const LayoutScreen({super.key});
@@ -27,7 +28,7 @@ class _LayoutScreenState extends State<LayoutScreen> {
   Widget build(BuildContext context) {
     List<Widget> pages = const [
       HomeScreen(),
-      ExpensesScreen(),
+      ReportsScreen(),
       GoalsScreen(),
       ExpensesScreen(),
       DebtsScreen(),
