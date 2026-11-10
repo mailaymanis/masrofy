@@ -286,7 +286,7 @@ class MoreScreen extends ConsumerWidget {
     WidgetRef ref,
     ThemeMode currentMode,
   ) {
-    final isDark = Theme.of(context).brightness == Brightness.dark;
+    //final isDark = Theme.of(context).brightness == Brightness.dark;
 
     showModalBottomSheet(
       context: context,
