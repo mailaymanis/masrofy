@@ -2,10 +2,11 @@ import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:masrofy/core/themes/app_colors.dart';
 import 'package:masrofy/core/themes/app_sizes.dart';
-import 'package:masrofy/features/debts/views/pages/debts_screen.dart';
+
 import 'package:masrofy/features/expenses/view/pages/expenses_screen.dart';
 import 'package:masrofy/features/goals/views/pages/goals_screen.dart';
 import 'package:masrofy/features/home/view/pages/home_screen.dart';
+import 'package:masrofy/features/layout/view/pages/more_screen.dart';
 import 'package:masrofy/features/layout/view/pages/reports_screen.dart';
 
 class LayoutScreen extends StatefulWidget {
@@ -31,7 +32,7 @@ class _LayoutScreenState extends State<LayoutScreen> {
       ReportsScreen(),
       GoalsScreen(),
       ExpensesScreen(),
-      DebtsScreen(),
+      MoreScreen(),
     ];
     return Scaffold(
       bottomNavigationBar: BottomNavigationBar(
