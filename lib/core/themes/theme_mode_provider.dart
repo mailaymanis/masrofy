@@ -6,6 +6,7 @@ final themeModeProvider = NotifierProvider<ThemeModeProvider, ThemeMode>(
 );
 
 class ThemeModeProvider extends Notifier<ThemeMode> {
+  //represent initial value
   @override
   build() {
     return ThemeMode.system;

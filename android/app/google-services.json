@@ -1,0 +1,37 @@
+{
+  "project_info": {
+    "project_number": "555894672261",
+    "project_id": "delivery-food-6a446",
+    "storage_bucket": "delivery-food-6a446.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:555894672261:android:f26eada45a94ae2e5ed2ec",
+        "android_client_info": {
+          "package_name": "com.example.masrofy"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAwkqBLJd2FfaU0ghYKaziEl__ItGutu2w"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "555894672261-f1gm5btigefjh5tc3ppnsugr1ode5p3l.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.foodDelivery"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
